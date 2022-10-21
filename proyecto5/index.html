@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="form-container">
+    <div class="login-container">
+      <h2>Welcome</h2>
+      <p>Selecciona el metodo de autenticacion</p>
+
+      <form action="action">
+        <p>
+          <label for="username">username</label>
+          <input class="input" type="text" name="username" id="username">
+        </p>
+
+        <p>
+          <label for="password">Password</label>
+          <input class="input" type="text" name="password "id="username">
+        </p>
+
+        <div class="options">
+          <div>
+            Recordar contraseña
+            <input type="checkbox" name="rememberme" id="rememberme">
+          </div>
+          <div>
+            <a href="#">Olvide mi password</a>
+          </div>
+        </div>
+
+        <p>
+          <input type="submit" class="btn btn-login" value="Log in">
+        </p>
+        <div class="providers">
+          <span>Elige otro metodo para autenticacion</span>
+          <button class="btn btn-facebook">Facebook</button>
+          <button class="btn btn-google">Google</button>
+          <button class="btn btn-twitter">Twitter</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="welcome-screen-container">
+      <img src="NASA.jpg" alt="Imagen de bienvenida">
+    </div>
+  </div>
+</body>
+</html>
